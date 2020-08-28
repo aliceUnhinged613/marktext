@@ -42,7 +42,7 @@
     "chokidar": "^3.4.0",
     "codemirror": "^5.54.0",
     "command-exists": "^1.2.9",
-    "dayjs": "^1.8.28",
+    "dayjs": "^1.8.32",
     "dom-autoscroller": "^2.3.4",
     "dompurify": "^2.0.11",
     "dragula": "^3.7.2",
