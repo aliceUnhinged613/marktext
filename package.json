@@ -75,7 +75,7 @@
     "source-map-support": "^0.5.19",
     "turndown": "^6.0.0",
     "underscore": "^1.10.2",
-    "unsplash-js": "^6.0.0",
+    "unsplash-js": "^6.2.0",
     "vega": "^5.13.0",
     "vega-embed": "^6.9.0",
     "vega-lite": "^4.13.1",
