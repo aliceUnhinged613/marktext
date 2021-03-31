@@ -906,18 +906,18 @@
     electron-is-accelerator "^0.1.0"
     keyboardevents-areequal "^0.2.1"
 
-"@hfelix/electron-spellchecker@1.0.0-rc.5":
-  version "1.0.0-rc.5"
-  resolved "https://registry.npmjs.org/@hfelix/electron-spellchecker/-/electron-spellchecker-1.0.0-rc.5.tgz#2e7c81857bbdd167aaea45b223a017bd89b19f7a"
-  integrity sha512-ma5osTva2F4/mF0h6Sbq0BTbMhZI0lBovjd/Ki2WesS9O5tIf75vdFeaZh0NVA7yynNsj5RmhfDTvrKOOg79MQ==
+"@hfelix/electron-spellchecker@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@hfelix/electron-spellchecker/-/electron-spellchecker-2.0.0.tgz#61d33224b01d8c2e62f6c59a33cdfcae14e00407"
+  integrity sha512-Mc5aRiSZ70Jg3VMgb1zdiwJNO7a48NB0Qs9GbKMlvVhueYUFLCCIkVyEGur+lNgrLODjjj2i1k5WOw6svgugIA==
   dependencies:
-    "@hfelix/spellchecker" "^4.0.12-rc.2"
+    "@hfelix/spellchecker" "^4.1.0"
     bcp47 "^1.1.2"
-    cld "^2.5.1"
-    debug "^4.1.1"
-    fs-extra "^8.1.0"
-    keyboard-layout "^2.0.16"
-    lru-cache "^5.1.1"
+    cld "^2.7.0"
+    debug "^4.3.1"
+    fs-extra "^9.0.1"
+    keyboard-layout "^2.0.17"
+    lru-cache "^6.0.0"
     p-throttle "^3.1.0"
 
 "@hfelix/keyboardevent-from-electron-accelerator@^1.1.1":
@@ -925,12 +925,12 @@
   resolved "https://registry.npmjs.org/@hfelix/keyboardevent-from-electron-accelerator/-/keyboardevent-from-electron-accelerator-1.1.1.tgz#7e1d4fd913759c381b7919cc7faf4c0c641d457c"
   integrity sha512-1eVkDSqoRQkF2FrPPia2EZ3310c0TvFKYvSuJbaxHpRKbI6eVHcVGKpmOSDli6Qdn3Bu0h7ozfgMZbAEBD+BLQ==
 
-"@hfelix/spellchecker@^4.0.12-rc.2":
-  version "4.0.12-rc.2"
-  resolved "https://registry.npmjs.org/@hfelix/spellchecker/-/spellchecker-4.0.12-rc.2.tgz#3a3630c222e567eca68476a1bce1c919dc452378"
-  integrity sha512-FrO+96Di+EiJiib9AiLMXn3PBNg8gayn1r8JBPBM8ME2UwTs8f7GJF6yYCW99a0N8Lqwo13rplLqY6UVG5gEtQ==
+"@hfelix/spellchecker@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@hfelix/spellchecker/-/spellchecker-4.1.0.tgz#d569a7adefe43ba154688e4a6cac15303ace53e9"
+  integrity sha512-B+cV+1DkzcaP128Kb2C2fO1N6cK4dXdmUJuquwY8IgFIn4fNIUM7UJ78jL3oBkiKfbTRty0hI7OvWCoWRphHAA==
   dependencies:
-    nan "^2.14.0"
+    node-addon-api "^3.0.2"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
@@ -2702,9 +2702,9 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-cld@^2.5.1:
+cld@^2.7.0:
   version "2.7.0"
-  resolved "https://registry.npmjs.org/cld/-/cld-2.7.0.tgz#4d0ebe3eba687b349252ca9e12e27a7a0b659e9c"
+  resolved "https://registry.yarnpkg.com/cld/-/cld-2.7.0.tgz#4d0ebe3eba687b349252ca9e12e27a7a0b659e9c"
   integrity sha512-rM20jIISRqMYfZAlowCA4DwLLegJXqfCFdVb1vtS+RG7yKHn4FrYdFfUx2WGbmaqOQV/w4MRIszh43FH78/oRA==
   dependencies:
     glob "^5.0.10"
@@ -3911,6 +3911,13 @@ debug@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/debug/-/debug-4.2.0.tgz#7f150f93920e94c58f5574c2fd01a3110effe7f1"
   integrity sha512-IX2ncY78vDTjZMFUdmsvIRFY2Cf4FnD0wRs+nQwJU8Lu99/tPFdb0VybiiMTPe3I6rQmwsqQqRBvxU+bZ/I8sg==
+  dependencies:
+    ms "2.1.2"
+
+debug@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
+  integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
   dependencies:
     ms "2.1.2"
 
@@ -7376,6 +7383,14 @@ keyboard-layout@^2.0.16:
     event-kit "^2.0.0"
     nan "^2.13.2"
 
+keyboard-layout@^2.0.17:
+  version "2.0.17"
+  resolved "https://registry.yarnpkg.com/keyboard-layout/-/keyboard-layout-2.0.17.tgz#32d35dc4196a88a3973b6c8863fd3c1b39643d43"
+  integrity sha512-W9LL+1e8CS9fi0s8ZHINDN1HZ6QpYjE4yLi4+faed7ozppNOAxINjv5w16zG9tJv8Jp5LJrCfO5PZ9aV1m5d4g==
+  dependencies:
+    event-kit "^2.0.0"
+    nan "^2.13.2"
+
 keyboardevents-areequal@^0.2.1:
   version "0.2.2"
   resolved "https://registry.npmjs.org/keyboardevents-areequal/-/keyboardevents-areequal-0.2.2.tgz#88191ec738ce9f7591c25e9056de928b40277194"
@@ -7923,6 +7938,13 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
+lru-cache@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
+  integrity sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
+  dependencies:
+    yallist "^4.0.0"
+
 macos-release@^2.2.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/macos-release/-/macos-release-2.3.0.tgz#eb1930b036c0800adebccd5f17bc4c12de8bb71f"
@@ -8396,7 +8418,7 @@ mute-stream@0.0.8:
   resolved "https://registry.npmjs.org/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
-nan@^2.12.1, nan@^2.13.2, nan@^2.14.0:
+nan@^2.12.1, nan@^2.13.2:
   version "2.14.1"
   resolved "https://registry.npmjs.org/nan/-/nan-2.14.1.tgz#d7be34dfa3105b91494c3147089315eff8874b01"
   integrity sha512-isWHgVjnFjh2x2yuJ/tj3JbwoHu3UC2dX5G/88Cm24yB6YopVgxvBObDY7n5xW6ExmFhJpSEQqFPvq9zaXc8Jw==
@@ -8468,6 +8490,11 @@ node-addon-api@*, node-addon-api@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-3.0.0.tgz#812446a1001a54f71663bed188314bba07e09247"
   integrity sha512-sSHCgWfJ+Lui/u+0msF3oyCgvdkhxDbkCS6Q8uiJquzOimkJBvX6hl5aSSA7DR1XbMpdM8r7phjcF63sF4rkKg==
+
+node-addon-api@^3.0.2:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-3.1.0.tgz#98b21931557466c6729e51cb77cd39c965f42239"
+  integrity sha512-flmrDNB06LIl5lywUz7YlNGZH/5p0M7W28k8hzd9Lshtdh1wshD2Y+U4h9LD6KObOy1f+fEVdgprPrEymjM5uw==
 
 node-environment-flags@1.0.6:
   version "1.0.6"
@@ -12100,7 +12127,12 @@ uglify-to-browserify@~1.0.0:
   resolved "https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
   integrity sha1-bgkk1r2mta/jSeOabWMoUKD4grc=
 
-underscore@^1.10.2, underscore@^1.6.0:
+underscore@^1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.12.1.tgz#7bb8cc9b3d397e201cf8553336d262544ead829e"
+  integrity sha512-hEQt0+ZLDVUMhebKxL4x1BTtDY7bavVofhZ9KZ4aI26X9SRaE+Y3m83XUL1UP2jn8ynjndwCCpEHdUG+9pP1Tw==
+
+underscore@^1.6.0:
   version "1.10.2"
   resolved "https://registry.npmjs.org/underscore/-/underscore-1.10.2.tgz#73d6aa3668f3188e4adb0f1943bd12cfd7efaaaf"
   integrity sha512-N4P+Q/BuyuEKFJ43B9gYuOj4TQUHXX+j2FqguVOpjkssLUUrnJofCcBccJSCoeturDoZU6GorDTHSvUDlSQbTg==
@@ -13362,6 +13394,11 @@ yallist@^3.0.0, yallist@^3.0.2, yallist@^3.0.3:
   version "3.1.1"
   resolved "https://registry.npmjs.org/yallist/-/yallist-3.1.1.tgz#dbb7daf9bfd8bac9ab45ebf602b8cbad0d5d08fd"
   integrity sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==
+
+yallist@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
+  integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
 yargs-parser@13.1.2, yargs-parser@^13.1.0, yargs-parser@^13.1.2:
   version "13.1.2"
