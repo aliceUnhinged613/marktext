@@ -12780,10 +12780,10 @@ void-elements@^2.0.0:
   resolved "https://registry.npmjs.org/void-elements/-/void-elements-2.0.1.tgz#c066afb582bb1cb4128d60ea92392e94d5e9dbec"
   integrity sha1-wGavtYK7HLQSjWDqkjkulNXp2+w=
 
-vscode-ripgrep@^1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/vscode-ripgrep/-/vscode-ripgrep-1.6.2.tgz#fb912c7465699f10ce0218a6676cc632c77369b4"
-  integrity sha512-jkZEWnQFcE+QuQFfxQXWcWtDafTmgkp3DjMKawDkajZwgnDlGKpFp15ybKrZNVTi1SLEF/12BzxYSZVVZ2XrkA==
+vscode-ripgrep@^1.13.2:
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/vscode-ripgrep/-/vscode-ripgrep-1.13.2.tgz#8ccebc33f14d54442c4b11962aead163c55b506e"
+  integrity sha512-RlK9U87EokgHfiOjDQ38ipQQX936gWOcWPQaJpYf+kAkz1PQ1pK2n7nhiscdOmLu6XGjTs7pWFJ/ckonpN7twQ==
   dependencies:
     https-proxy-agent "^4.0.0"
     proxy-from-env "^1.1.0"
